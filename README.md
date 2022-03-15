@@ -1,22 +1,24 @@
 
-# Message Api
-message Api - https://message-03-api.herokuapp.com/
-Routes
+# Message API
+message API - https://message-03-api.herokuapp.com/
 
-## GET
+## Routes
+
+### GET
 getAllMessage - https://message-03-api.herokuapp.com/api/v1/message
 
-## POST
+### POST
 createMessage - https://message-03-api.herokuapp.com/api/v1/message
 
-## GET
+### GET
 getMessage - https://message-03-api.herokuapp.com/api/v1/message/:id
 
-## PATCH
+### PATCH
 updateMessage - https://message-03-api.herokuapp.com/api/v1/message/:id
 
-## DELETE
+### DELETE
 deleteMessage - https://message-03-api.herokuapp.com/api/v1/message/:id
+
 
 ## Note:
 Only message can be updated.
