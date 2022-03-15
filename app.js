@@ -14,6 +14,10 @@ app.use(express.urlencoded({extended:false}))
 app.use("/api/v1/message",route)
 app.use(notFound)
 
+app.get("/",(req,res)=>{
+    res.status(200).send("Message-Api")
+})
+
 
 
 const PORT = process.env.PORT || 5000;
