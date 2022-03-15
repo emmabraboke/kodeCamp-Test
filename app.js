@@ -20,7 +20,7 @@ const PORT = process.env.PORT || 5000;
 
 const start = async () =>{
     try {
-        await db(process.env.DATABASE_URI)
+        await db(process.env.MESSAGE_URI)
         console.log("database connected")
         app.listen(PORT,()=>{
             console.log(`listening on port : ${PORT}...`)
