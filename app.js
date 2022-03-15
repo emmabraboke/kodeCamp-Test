@@ -11,12 +11,12 @@ app.use(express.json())
 app.use(express.urlencoded({extended:false}))
 
 //routes
-app.use("/api/v1/message",route)
-app.use(notFound)
-
 app.get("/",(req,res)=>{
     res.status(200).send("Message-Api")
 })
+app.use("/api/v1/message",route)
+app.use(notFound)
+
 
 
 
